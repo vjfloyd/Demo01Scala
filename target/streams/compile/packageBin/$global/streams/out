@@ -1,0 +1,13 @@
+[info] Packaging C:\projects\repoScala\Demo01\target\scala-2.12\demo01_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	demo\test\Main$delayedInit$body.class
+[debug] 	  C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\Main$delayedInit$body.class
+[debug] 	demo\test\Main$.class
+[debug] 	  C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\Main$.class
+[debug] 	demo
+[debug] 	  C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo
+[debug] 	demo\test\Main.class
+[debug] 	  C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\Main.class
+[debug] 	demo\test
+[debug] 	  C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test
+[info] Done packaging.
