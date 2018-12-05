@@ -1,27 +1,42 @@
-[0m[[0m[0mdebug[0m] [0m[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\projects\repoScala\Demo01\src\main\scala\demo\test\Main.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\Main$.class, C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\Main$delayedInit$body.class, C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\Main.class)[0m
-[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(demo.test.Main)[0m
-[0m[[0m[0mdebug[0m] [0m[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set(C:\projects\repoScala\Demo01\src\main\scala\demo\test\Main.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\projects\repoScala\Demo01\target\scala-2.12\classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5059a8d7 for Scala compiler version 2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes;C:\Users\Johnny\.sbt\boot\scala-2.12.7\lib\scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\projects\repoScala\Demo01\target\scala-2.12\classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.344807708 s[0m
-[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(C:\projects\repoScala\Demo01\src\main\scala\demo\test\CubeCalculator.scala)
+[debug] Invalidated products: Set(C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\CubeCalculator.class, C:\projects\repoScala\Demo01\target\scala-2.12\classes\demo\test\CubeCalculator$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(demo.test.CubeCalculator)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(C:\projects\repoScala\Demo01\src\main\scala\demo\test\CubeCalculator.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(demo.test.CubeCalculator)
+[debug] All initially invalidated sources:Set(C:\projects\repoScala\Demo01\src\main\scala\demo\test\CubeCalculator.scala)
+[info] Compiling 1 Scala source to C:\projects\repoScala\Demo01\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7
+[debug] [zinc] Running cached compiler 7c98c1b1 for Scala compiler version 2.12.7
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes;C:\Users\Johnny\.sbt\boot\scala-2.12.7\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\projects\repoScala\Demo01\target\scala-2.12\classes
+[debug] Scala compilation took 0.599944149 s
+[info] Done compiling.
+[debug] Invalidating (transitively) by inheritance from demo.test.CubeCalculator...
+[debug] Initial set of included nodes: Set(demo.test.CubeCalculator)
+[debug] Invalidated by transitive inheritance dependency: Set(demo.test.CubeCalculator)
+[debug] Change NamesChange(demo.test.CubeCalculator,ModifiedNames(changes = UsedName(main,[Default]), UsedName(executionStart,[Default]), UsedName(delayedInit,[Default]), UsedName(CubeCalculator,[Default]), UsedName($init$,[Default]), UsedName(args,[Default]))) invalidates 1 classes due to The demo.test.CubeCalculator has the following regular definitions changed:
+[debug] 	UsedName(main,[Default]), UsedName(executionStart,[Default]), UsedName(delayedInit,[Default]), UsedName(CubeCalculator,[Default]), UsedName($init$,[Default]), UsedName(args,[Default]).
+[debug] 	> by transitive inheritance: Set(demo.test.CubeCalculator)
+[debug] 	> 
+[debug] 	> 
+[debug]         
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated classes after taking into account (previously) recompiled classes:Set()
